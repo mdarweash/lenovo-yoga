@@ -23,10 +23,19 @@ A systemd user service that polls the tweeter volume every 500ms and syncs the b
 
 ### Files
 
+- **`install.sh`** — one-line installer (clones, installs, tests)
 - **`yogabook-bass-sync.sh`** — sync script
 - **`yogabook-bass-sync.service`** — systemd user service
 
 ### Install
+
+One line:
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/mdarweash/lenovo-yoga/master/sound/install.sh)
+```
+
+Or manually:
 
 ```bash
 cp yogabook-bass-sync.sh ~/.local/bin/
