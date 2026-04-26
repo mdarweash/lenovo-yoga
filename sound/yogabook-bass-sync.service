@@ -1,0 +1,13 @@
+[Unit]
+Description=Yoga Book 9 Bass Speaker Volume Sync
+After=pipewire.service
+Wants=pipewire.service
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/yogabook-bass-sync.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
