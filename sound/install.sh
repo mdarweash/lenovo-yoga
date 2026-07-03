@@ -91,14 +91,15 @@ fi
 
 log_step "Testing volume sync"
 
-SINK_ID=$(wpctl status 2>/dev/null | grep -oP '\d+(?=\. sof-hda-dsp Speaker\b)' | head -1)
+SINK_ID="@DEFAULT_AUDIO_SINK@"
 
-if [ -z "$SINK_ID" ]; then
-    log_fail "Could not find sof-hda-dsp Speaker sink"
-    log_info "Make sure PipeWire is running and the Speaker profile is active"
+if ! wpctl inspect "$SINK_ID" &>/dev/null; then
+    log_fail "No default audio sink available"
+    log_info "Make sure PipeWire is running and a Speaker profile is active"
     exit 1
 fi
-log_ok "Found speaker sink: $SINK_ID"
+SINK_DESC=$(wpctl inspect "$SINK_ID" 2>/dev/null | grep -oP 'node\.description = "\K[^"]+' | head -1)
+log_ok "Default sink: $SINK_DESC"
 
 # Save current volume (strip MUTED suffix if present)
 ORIG_VOL=$(wpctl get-volume "$SINK_ID" 2>/dev/null | grep -oP '^Volume: \K[\d.]+')
@@ -112,8 +113,8 @@ log_info "Setting volume to 30%..."
 wpctl set-volume "$SINK_ID" 30%
 sleep 2
 
-SPK=$(amixer cget numid=13 2>/dev/null | grep -oP ': values=\K[0-9,]+')
-BAS=$(amixer cget numid=15 2>/dev/null | grep -oP ': values=\K[0-9,]+')
+SPK=$(amixer -c 0 cget numid=13 2>/dev/null | grep -oP ': values=\K[0-9,]+')
+BAS=$(amixer -c 0 cget numid=15 2>/dev/null | grep -oP ': values=\K[0-9,]+')
 
 if [ "$SPK" = "$BAS" ]; then
     log_ok "30% — Speaker: $SPK  Bass: $BAS  (match)"
@@ -126,8 +127,8 @@ log_info "Setting volume to 70%..."
 wpctl set-volume "$SINK_ID" 70%
 sleep 2
 
-SPK=$(amixer cget numid=13 2>/dev/null | grep -oP ': values=\K[0-9,]+')
-BAS=$(amixer cget numid=15 2>/dev/null | grep -oP ': values=\K[0-9,]+')
+SPK=$(amixer -c 0 cget numid=13 2>/dev/null | grep -oP ': values=\K[0-9,]+')
+BAS=$(amixer -c 0 cget numid=15 2>/dev/null | grep -oP ': values=\K[0-9,]+')
 
 if [ "$SPK" = "$BAS" ]; then
     log_ok "70% — Speaker: $SPK  Bass: $BAS  (match)"
