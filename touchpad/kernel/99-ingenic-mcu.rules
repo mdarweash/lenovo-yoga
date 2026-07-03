@@ -1,0 +1,9 @@
+# INGENIC MCU for Lenovo Yoga Book 9
+# Prevent cdc_acm from claiming IF0 (it fails and blocks our driver)
+# Auto-load our driver when device appears
+
+# Block cdc_acm from binding to this device
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", ATTR{idProduct}=="6161", ATTR{bInterfaceNumber}=="00", ENV{ID_USB_INTERFACE_NUM}=="00", RUN+="/bin/sh -c 'echo -n %k > /sys/bus/usb/drivers/cdc_acm/unbind'"
+
+# Auto-load ingenic_mcu module
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", ATTR{idProduct}=="6161", RUN+="/sbin/modprobe ingenic_mcu"

@@ -1,0 +1,52 @@
+The Export Tables (interpreted .rdata section contents)
+
+Export Flags 			0
+Time/Date stamp 		ffffffff
+Major/Minor 			0/0
+Name 				000000000002bd1e PyxisHelperAPI.dll
+Ordinal Base 			1
+Number in:
+	Export Address Table 		0000000f
+	[Name Pointer/Ordinal] Table	0000000f
+Table Addresses
+	Export Address Table 		000000000002bc88
+	Name Pointer Table 		000000000002bcc4
+	Ordinal Table 			000000000002bd00
+
+Export Address Table -- Ordinal Base 1
+	          Ordinal  Address  Type
+	[   0] +base[   1] 00002910 Export RVA
+	[   1] +base[   2] 00002400 Export RVA
+	[   2] +base[   3] 00002e90 Export RVA
+	[   3] +base[   4] 00002510 Export RVA
+	[   4] +base[   5] 00002ff0 Export RVA
+	[   5] +base[   6] 00002c40 Export RVA
+	[   6] +base[   7] 00002800 Export RVA
+	[   7] +base[   8] 00002d50 Export RVA
+	[   8] +base[   9] 00002750 Export RVA
+	[   9] +base[  10] 00002a20 Export RVA
+	[  10] +base[  11] 00002b30 Export RVA
+	[  11] +base[  12] 000026a0 Export RVA
+	[  12] +base[  13] 000030e0 Export RVA
+	[  13] +base[  14] 000025c0 Export RVA
+	[  14] +base[  15] 00002f40 Export RVA
+
+[Ordinal/Name Pointer] Table -- Ordinal Base 1
+	          Ordinal   Hint Name
+	[   0] +base[   1]  0000 EiAddBlackListCommand
+	[   1] +base[   2]  0001 EiAppStart
+	[   2] +base[   3]  0002 EiEnableWinOsk
+	[   3] +base[   4]  0003 EiEnd
+	[   4] +base[   5]  0004 EiGetBTKB
+	[   5] +base[   6]  0005 EiKillAppCommand
+	[   6] +base[   7]  0006 EiPostJsonCommand
+	[   7] +base[   8]  0007 EiPostMcuCommand
+	[   8] +base[   9]  0008 EiPostMessageToService
+	[   9] +base[  10]  0009 EiRemoveBlackListCommand
+	[  10] +base[  11]  000a EiRunAppCommand
+	[  11] +base[  12]  000b EiRunUpdater
+	[  12] +base[  13]  000c EiSetScreenMode
+	[  13] +base[  14]  000d EiTriggerEvent
+	[  14] +base[  15]  000e EiWriteITS
+
+The Function Table (interpreted .pdata section contents)

@@ -1,0 +1,16 @@
+	DLL Name: ntdll.dll
+	DLL Name: ADVAPI32.dll
+	DLL Name: WppRecorderUM.dll
+	DLL Name: KERNEL32.dll
+	DLL Name: api-ms-win-crt-string-l1-1-0.dll
+	DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+	DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+	DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+	DLL Name: api-ms-win-core-rtlsupport-l1-1-0.dll
+	DLL Name: api-ms-win-devices-config-l1-1-1.dll
+	0002e2b8  <none>  005e  CM_Get_Device_Interface_ListW
+	0002e2c0  <none>  0062  CM_Get_Device_Interface_List_SizeW
+	DLL Name: HID.DLL
+	0002e070  <none>  0015  HidP_GetCaps
+	0002e078  <none>  0021  HidP_InitializeReportForID
+	[   0] +base[   1]  0000 FxDriverEntryUm

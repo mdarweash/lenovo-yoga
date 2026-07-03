@@ -1,0 +1,16 @@
+broken pipe
+c:\jenkins\ws\workspace\Pyxis-YBS3-OTA2-OSRefresh\Pyxis\Codes\PyxisService\bin\Release_x64_pdb\PyxisHelperAPI.pdb
+EiAddBlackListCommand
+EiKillAppCommand
+EiPostJsonCommand
+EiPostMcuCommand
+EiPostMessageToService
+EiRunAppCommand
+EiSetScreenMode
+EiTriggerEvent
+EiWriteITS
+WaitNamedPipeW
+SetNamedPipeHandleState
+ConnectNamedPipe
+GetNamedPipeClientProcessId
+CreateNamedPipeW

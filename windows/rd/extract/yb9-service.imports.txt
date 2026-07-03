@@ -1,0 +1,23 @@
+	DLL Name: WTSAPI32.dll
+	DLL Name: SETUPAPI.dll
+	00069640  <none>  016c  SetupDiGetDeviceInterfaceDetailW
+	00069648  <none>  013d  SetupDiDestroyDeviceInfoList
+	00069650  <none>  0154  SetupDiGetClassDevsW
+	00069658  <none>  0141  SetupDiEnumDeviceInterfaces
+	DLL Name: LibCertValidator.dll
+	DLL Name: KERNEL32.dll
+	000690e8  <none>  0617  WaitNamedPipeW
+	00069110  <none>  0498  ReadFile
+	000691e0  <none>  00ec  CreateNamedPipeW
+	000692f0  <none>  00da  CreateFileW
+	00069328  <none>  064b  WriteFile
+	DLL Name: USER32.dll
+	00069680  <none>  02f6  RegisterSuspendResumeNotification
+	00069688  <none>  02f1  RegisterPowerSettingNotification
+	DLL Name: ADVAPI32.dll
+	DLL Name: SHELL32.dll
+	DLL Name: ole32.dll
+	DLL Name: OLEAUT32.dll
+	DLL Name: VERSION.dll
+	DLL Name: ntdll.dll
+	DLL Name: USERENV.dll

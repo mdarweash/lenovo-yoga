@@ -1,0 +1,87 @@
+
+[Version]
+Signature="$Windows NT$"
+Class=Firmware
+ClassGuid={f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+Provider=%ManufacturerName%
+CatalogFile=FusionTouchFirmwareUpdate.cat
+DriverVer= 11/18/2025,1.3.36.66
+PnPLockDown=1
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%FusionTouchFirmwareUpdate.DeviceDesc%=FusionTouchFirmwareUpdate, HID\VID_17EF&UP:FECD_U:0080
+
+[FusionTouchFirmwareUpdate.NT]
+CopyFiles=FusionTouchFirmwareUpdate.CopyFiles
+
+[FusionTouchFirmwareUpdate.NT.HW]
+AddReg = FusionTouchFirmwareUpdate_HWAddReg
+
+[FusionTouchFirmwareUpdate_HWAddReg]
+HKR,,Protocol,0x00010001, 1           ;(PROTOCOL-USB)
+HKR,,NumberOfInputReports,0x00010001, 2
+HKR,,SupportResumeOnConnect,0x00010001, 0
+HKR,,SupportProtocolSkipOptimization,0x00010001, 0
+HKR,,FriendlyName,,%FwUpdateFriendlyName%
+
+; Specify the location of the firmware offer and payload file in the registy.
+; The files are kept in driver store. When deployed, %13% would be expanded to the actual path 
+; in driver store.
+;
+
+HKR,CFU\lnv_oskprovider, Offer,   0x00000000, %13%\lnv_oskprovider.offer.bin 
+HKR,CFU\lnv_oskprovider, Payload, 0x00000000, %13%\lnv_oskprovider.payload.bin 
+
+[SourceDisksFiles]
+lnv_oskprovider.offer.bin=1 
+lnv_oskprovider.payload.bin=1 
+FusionTouchFirmwareUpdate.dll=1
+
+[FusionTouchFirmwareUpdate.CopyFiles]
+lnv_oskprovider.offer.bin 
+lnv_oskprovider.payload.bin 
+FusionTouchFirmwareUpdate.dll
+
+[FusionTouchFirmwareUpdate.NT.Services]
+AddService=WUDFRd,0x000001fa,WUDFRD_ServiceInstall
+
+[FusionTouchFirmwareUpdate.NT.Wdf]
+UmdfService=FusionTouchFirmwareUpdate,FusionTouchFirmwareUpdate_Install
+UmdfServiceOrder=FusionTouchFirmwareUpdate
+; Let the reflector copy the METHOD_NEITHER buffers that the Hid.dll sends.
+; Without this directive, an upper client will lose ability to talk to the TLC over which this driver is loaded.
+UmdfMethodNeitherAction = Copy
+
+[FusionTouchFirmwareUpdate_Install]
+UmdfLibraryVersion=2.15.0
+ServiceBinary=%12%\UMDF\FusionTouchFirmwareUpdate.dll
+
+[WUDFRD_ServiceInstall]
+DisplayName = %WudfRdDisplayName%
+ServiceType  = %SERVICE_KERNEL_DRIVER%
+StartType    = %SERVICE_DEMAND_START%
+ErrorControl = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %12%\WUDFRd.sys
+
+[DestinationDirs]
+FusionTouchFirmwareUpdate.CopyFiles=12,UMDF ; copy to drivers\umdf
+
+; =================== Generic ==================================
+
+[Strings]
+ManufacturerName="Lenovo"
+FusionTouchFirmwareUpdate.DeviceDesc = "OSK Provider Firmware" 
+DiskName = "OSK Provider Firmware Update Installation Disk"
+FwUpdateFriendlyName= "OSK Provider Firmware"
+WudfRdDisplayName="OSK Provider Foundation"
+
+; non-localizable
+SERVICE_KERNEL_DRIVER = 1
+SERVICE_DEMAND_START  = 3
+SERVICE_ERROR_NORMAL  = 1

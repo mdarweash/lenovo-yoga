@@ -1,0 +1,15 @@
+LnvOSKProviderCFU
+NumberOfInputReports
+Offer
+Payload
+CurrentFwVersion
+OfferFwVersion
+FirmwareUpdateStatus
+FirmwareUpdateStatusRejectReason
+ResumePayloadBinRecordIndex
+ResumePayloadBufferBinRecordDataOffset
+InstanceID:%s:Component%02X%s
+InstanceID:%s:Offer:
+Offer:
+InstanceID:%s:Offer:%X%X%X%X
+Offer:%X%X%X%X

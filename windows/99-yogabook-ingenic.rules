@@ -1,0 +1,10 @@
+# Lenovo Yoga Book 9 — INGENIC touchscreen/stylus rules
+# Device: 17ef:6161 (INGENIC Gadget Serial and keyboard)
+
+# 1. Block cdc_acm from probing interface 0 — its control transfers crash the INGENIC MCU
+#    Match interface 0 (Communications class) of this composite device
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", ATTR{idProduct}=="6161", ATTR{bInterfaceNumber}=="00", ENV{DRIVER}=""
+
+# 2. Auto-apply touch orientation fix when hid-multitouch binds to the touchscreen
+#    This re-applies orientationDBus=8 after the MCU crashes and reconnects
+ACTION=="add|bind", SUBSYSTEM=="input", ATTRS{name}=="INGENIC Gadget Serial and keyboard Touchscreen Top", RUN+="/bin/bash -c '/home/mdarweash/myCommands/yogabook/windows/fix-touch-orientation-auto.sh &'"

@@ -1,0 +1,814 @@
+Frame 211: Packet, 45 bytes on wire (360 bits), 45 bytes captured (360 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.914889000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.914889000 UTC
+    Epoch Arrival Time: 1778907390.914889000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 82.965000 milliseconds]
+    [Time since reference or first frame: 7.276219000 seconds]
+    Frame Number: 211
+    Frame Length: 45 bytes (360 bits)
+    Capture Length: 45 bytes (360 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_cmd]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ed96e4920
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CLASS_DEVICE (0x001a)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 17
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x20
+        0... .... = Direction: Host-to-device
+        .01. .... = Type: Class (0x1)
+        ...0 0000 = Recipient: Device (0x00)
+    Data Fragment: 422006000000000000
+Bluetooth
+Bluetooth HCI USB Transport
+    bRequest: Primary Controller Function (0)
+    wValue: 0x0000
+    Adapter ID: 0
+    wLength: 9
+    [Packet Complete]
+Bluetooth HCI Command - LE Set Extended Scan Enable
+    Command Opcode: LE Set Extended Scan Enable (0x2042)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0010 = Opcode Command Field: LE Set Extended Scan Enable (0x042)
+    Parameter Total Length: 6
+    Scan Enable: false (0x00)
+    Filter Duplicates: false (0x00)
+    Duration: 0 (0 msec)
+    Period: 0 (0 sec)
+
+Frame 212: Packet, 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.915125000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.915125000 UTC
+    Epoch Arrival Time: 1778907390.915125000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 236.000 microseconds]
+    [Time delta from previous displayed frame: 236.000 microseconds]
+    [Time since reference or first frame: 7.276455000 seconds]
+    Frame Number: 212
+    Frame Length: 28 bytes (224 bits)
+    Capture Length: 28 bytes (224 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ed96e4920
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 211]
+    [Time from request: 236.000 microseconds]
+    Control transfer stage: Complete (3)
+Bluetooth
+Bluetooth HCI USB Transport
+[Malformed Packet: HCI_USB]
+    [Expert Info (Error/Malformed): Malformed Packet (Exception occurred)]
+        [Malformed Packet (Exception occurred)]
+        [Severity level: Error]
+        [Group: Malformed]
+
+Frame 213: Packet, 33 bytes on wire (264 bits), 33 bytes captured (264 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.916854000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.916854000 UTC
+    Epoch Arrival Time: 1778907390.916854000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.729000 milliseconds]
+    [Time delta from previous displayed frame: 1.729000 milliseconds]
+    [Time since reference or first frame: 7.278184000 seconds]
+    Frame Number: 213
+    Frame Length: 33 bytes (264 bits)
+    Capture Length: 33 bytes (264 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_evt]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec26e15a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 6
+    [Request in: 204]
+    [Time from request: 340.875000 milliseconds]
+    [bInterfaceClass: Wireless Controller (0xe0)]
+Bluetooth
+Bluetooth HCI USB Transport
+    [Packet Complete]
+Bluetooth HCI Event - Command Complete
+    Event Code: Command Complete (0x0e)
+    Parameter Total Length: 4
+    Number of Allowed Command Packets: 1
+    Command Opcode: LE Set Extended Scan Enable (0x2042)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0010 = Opcode Command Field: LE Set Extended Scan Enable (0x042)
+    Status: Success (0x00)
+    [Command in frame: 211]
+    [Command-Response Delta: 1.965ms]
+
+Frame 214: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.916952000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.916952000 UTC
+    Epoch Arrival Time: 1778907390.916952000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 98.000 microseconds]
+    [Time delta from previous displayed frame: 98.000 microseconds]
+    [Time since reference or first frame: 7.278282000 seconds]
+    Frame Number: 214
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec26e15a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: Wireless Controller (0xe0)]
+
+Frame 215: Packet, 41 bytes on wire (328 bits), 41 bytes captured (328 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.917279000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.917279000 UTC
+    Epoch Arrival Time: 1778907390.917279000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 327.000 microseconds]
+    [Time delta from previous displayed frame: 327.000 microseconds]
+    [Time since reference or first frame: 7.278609000 seconds]
+    Frame Number: 215
+    Frame Length: 41 bytes (328 bits)
+    Capture Length: 41 bytes (328 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_cmd]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ec522ca50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CLASS_DEVICE (0x001a)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 13
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x20
+        0... .... = Direction: Host-to-device
+        .01. .... = Type: Class (0x1)
+        ...0 0000 = Recipient: Device (0x00)
+    Data Fragment: 1efc020501
+Bluetooth
+Bluetooth HCI USB Transport
+    bRequest: Primary Controller Function (0)
+    wValue: 0x0000
+    Adapter ID: 0
+    wLength: 5
+    [Packet Complete]
+Bluetooth HCI Command - Vendor Command 0xfc1e
+    Command Opcode: Unknown (0xfc1e)
+        1111 11.. .... .... = Opcode Group Field: Vendor-Specific Commands (0x3f)
+        .... ..00 0001 1110 = Opcode Command Field: 0x01e
+    Parameter Total Length: 2
+    Parameter: 0501
+
+Frame 216: Packet, 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.917458000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.917458000 UTC
+    Epoch Arrival Time: 1778907390.917458000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 179.000 microseconds]
+    [Time delta from previous displayed frame: 179.000 microseconds]
+    [Time since reference or first frame: 7.278788000 seconds]
+    Frame Number: 216
+    Frame Length: 28 bytes (224 bits)
+    Capture Length: 28 bytes (224 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ec522ca50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 215]
+    [Time from request: 179.000 microseconds]
+    Control transfer stage: Complete (3)
+Bluetooth
+Bluetooth HCI USB Transport
+[Malformed Packet: HCI_USB]
+    [Expert Info (Error/Malformed): Malformed Packet (Exception occurred)]
+        [Malformed Packet (Exception occurred)]
+        [Severity level: Error]
+        [Group: Malformed]
+
+Frame 217: Packet, 34 bytes on wire (272 bits), 34 bytes captured (272 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.918857000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.918857000 UTC
+    Epoch Arrival Time: 1778907390.918857000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.399000 milliseconds]
+    [Time delta from previous displayed frame: 1.399000 milliseconds]
+    [Time since reference or first frame: 7.280187000 seconds]
+    Frame Number: 217
+    Frame Length: 34 bytes (272 bits)
+    Capture Length: 34 bytes (272 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_evt]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec26ca010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 7
+    [Request in: 208]
+    [Time from request: 102.872000 milliseconds]
+    [bInterfaceClass: Wireless Controller (0xe0)]
+Bluetooth
+Bluetooth HCI USB Transport
+    [Packet Complete]
+Bluetooth HCI Event - Command Complete
+    Event Code: Command Complete (0x0e)
+    Parameter Total Length: 5
+    Number of Allowed Command Packets: 1
+    Command Opcode: Unknown (0xfc1e)
+        1111 11.. .... .... = Opcode Group Field: Vendor-Specific Commands (0x3f)
+        .... ..00 0001 1110 = Opcode Command Field: 0x01e
+    Return Parameter
+    [Command in frame: 215]
+    [Command-Response Delta: 1.578ms]
+
+Frame 218: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.918963000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.918963000 UTC
+    Epoch Arrival Time: 1778907390.918963000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 106.000 microseconds]
+    [Time delta from previous displayed frame: 106.000 microseconds]
+    [Time since reference or first frame: 7.280293000 seconds]
+    Frame Number: 218
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec26ca010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: Wireless Controller (0xe0)]
+
+Frame 219: Packet, 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.919128000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.919128000 UTC
+    Epoch Arrival Time: 1778907390.919128000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 165.000 microseconds]
+    [Time delta from previous displayed frame: 165.000 microseconds]
+    [Time since reference or first frame: 7.280458000 seconds]
+    Frame Number: 219
+    Frame Length: 47 bytes (376 bits)
+    Capture Length: 47 bytes (376 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_cmd]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ec522ca50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CLASS_DEVICE (0x001a)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 19
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x20
+        0... .... = Direction: Host-to-device
+        .01. .... = Type: Class (0x1)
+        ...0 0000 = Recipient: Device (0x00)
+    Data Fragment: 41200800010100bd001d00
+Bluetooth
+Bluetooth HCI USB Transport
+    bRequest: Primary Controller Function (0)
+    wValue: 0x0000
+    Adapter ID: 0
+    wLength: 11
+    [Packet Complete]
+Bluetooth HCI Command - LE Set Extended Scan Parameters
+    Command Opcode: LE Set Extended Scan Parameters (0x2041)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0001 = Opcode Command Field: LE Set Extended Scan Parameters (0x041)
+    Parameter Total Length: 8
+    Own Address Type: Public Device Address (0x00)
+    Scan Filter Policy: 0x01, Decision Mode: No-decisions Mode, Filtered (Use Filter Accept List)
+        0000 .... = Reserved: 0x0
+        .... 00.. = Decision Mode: No-decisions Mode (0x0)
+        .... ..0. = Extended (Allow Unresolvable TargetA Address): False
+        .... ...1 = Filtered (Use Filter Accept List): True
+    Scanning PHYs: 0x01, LE 1M
+        0000 0.0. = Reserved: 0x00
+        .... .0.. = LE Coded: False
+        .... ...1 = LE 1M: True
+    Scanning PHY: LE 1M
+        Scan Type: Passive (0x00)
+        Scan Interval: 118.125 ms (189 slots)
+        Scan Window: 18.125 ms (29 slots)
+
+Frame 220: Packet, 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.919338000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.919338000 UTC
+    Epoch Arrival Time: 1778907390.919338000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 210.000 microseconds]
+    [Time delta from previous displayed frame: 210.000 microseconds]
+    [Time since reference or first frame: 7.280668000 seconds]
+    Frame Number: 220
+    Frame Length: 28 bytes (224 bits)
+    Capture Length: 28 bytes (224 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ec522ca50
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 219]
+    [Time from request: 210.000 microseconds]
+    Control transfer stage: Complete (3)
+Bluetooth
+Bluetooth HCI USB Transport
+[Malformed Packet: HCI_USB]
+    [Expert Info (Error/Malformed): Malformed Packet (Exception occurred)]
+        [Malformed Packet (Exception occurred)]
+        [Severity level: Error]
+        [Group: Malformed]
+
+Frame 221: Packet, 33 bytes on wire (264 bits), 33 bytes captured (264 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.920848000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.920848000 UTC
+    Epoch Arrival Time: 1778907390.920848000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.510000 milliseconds]
+    [Time delta from previous displayed frame: 1.510000 milliseconds]
+    [Time since reference or first frame: 7.282178000 seconds]
+    Frame Number: 221
+    Frame Length: 33 bytes (264 bits)
+    Capture Length: 33 bytes (264 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_evt]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec235a5a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 6
+    [Request in: 210]
+    [Time from request: 88.924000 milliseconds]
+    [bInterfaceClass: Wireless Controller (0xe0)]
+Bluetooth
+Bluetooth HCI USB Transport
+    [Packet Complete]
+Bluetooth HCI Event - Command Complete
+    Event Code: Command Complete (0x0e)
+    Parameter Total Length: 4
+    Number of Allowed Command Packets: 1
+    Command Opcode: LE Set Extended Scan Parameters (0x2041)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0001 = Opcode Command Field: LE Set Extended Scan Parameters (0x041)
+    Status: Success (0x00)
+    [Command in frame: 219]
+    [Command-Response Delta: 1.72ms]
+
+Frame 222: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.921021000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.921021000 UTC
+    Epoch Arrival Time: 1778907390.921021000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 173.000 microseconds]
+    [Time delta from previous displayed frame: 173.000 microseconds]
+    [Time since reference or first frame: 7.282351000 seconds]
+    Frame Number: 222
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec235a5a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: Wireless Controller (0xe0)]
+
+Frame 223: Packet, 45 bytes on wire (360 bits), 45 bytes captured (360 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.921354000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.921354000 UTC
+    Epoch Arrival Time: 1778907390.921354000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 333.000 microseconds]
+    [Time delta from previous displayed frame: 333.000 microseconds]
+    [Time since reference or first frame: 7.282684000 seconds]
+    Frame Number: 223
+    Frame Length: 45 bytes (360 bits)
+    Capture Length: 45 bytes (360 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_cmd]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ecc977a20
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CLASS_DEVICE (0x001a)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 17
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x20
+        0... .... = Direction: Host-to-device
+        .01. .... = Type: Class (0x1)
+        ...0 0000 = Recipient: Device (0x00)
+    Data Fragment: 422006010000000000
+Bluetooth
+Bluetooth HCI USB Transport
+    bRequest: Primary Controller Function (0)
+    wValue: 0x0000
+    Adapter ID: 0
+    wLength: 9
+    [Packet Complete]
+Bluetooth HCI Command - LE Set Extended Scan Enable
+    Command Opcode: LE Set Extended Scan Enable (0x2042)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0010 = Opcode Command Field: LE Set Extended Scan Enable (0x042)
+    Parameter Total Length: 6
+    Scan Enable: true (0x01)
+    Filter Duplicates: false (0x00)
+    Duration: 0 (0 msec)
+    Period: 0 (0 sec)
+
+Frame 224: Packet, 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.921518000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.921518000 UTC
+    Epoch Arrival Time: 1778907390.921518000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 164.000 microseconds]
+    [Time delta from previous displayed frame: 164.000 microseconds]
+    [Time since reference or first frame: 7.282848000 seconds]
+    Frame Number: 224
+    Frame Length: 28 bytes (224 bits)
+    Capture Length: 28 bytes (224 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffbe0ecc977a20
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 223]
+    [Time from request: 164.000 microseconds]
+    Control transfer stage: Complete (3)
+Bluetooth
+Bluetooth HCI USB Transport
+[Malformed Packet: HCI_USB]
+    [Expert Info (Error/Malformed): Malformed Packet (Exception occurred)]
+        [Malformed Packet (Exception occurred)]
+        [Severity level: Error]
+        [Group: Malformed]
+
+Frame 225: Packet, 33 bytes on wire (264 bits), 33 bytes captured (264 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.922907000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.922907000 UTC
+    Epoch Arrival Time: 1778907390.922907000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.389000 milliseconds]
+    [Time delta from previous displayed frame: 1.389000 milliseconds]
+    [Time since reference or first frame: 7.284237000 seconds]
+    Frame Number: 225
+    Frame Length: 33 bytes (264 bits)
+    Capture Length: 33 bytes (264 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:bluetooth:hci_usb:bthci_evt]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 1.4.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec26e15a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 6
+    [Request in: 214]
+    [Time from request: 5.955000 milliseconds]
+    [bInterfaceClass: Wireless Controller (0xe0)]
+Bluetooth
+Bluetooth HCI USB Transport
+    [Packet Complete]
+Bluetooth HCI Event - Command Complete
+    Event Code: Command Complete (0x0e)
+    Parameter Total Length: 4
+    Number of Allowed Command Packets: 1
+    Command Opcode: LE Set Extended Scan Enable (0x2042)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0010 = Opcode Command Field: LE Set Extended Scan Enable (0x042)
+    Status: Success (0x00)
+    [Command in frame: 223]
+    [Command-Response Delta: 1.553ms]
+
+Frame 226: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: May 16, 2026 07:56:30.922984000 Egypt Daylight Time
+    UTC Arrival Time: May 16, 2026 04:56:30.922984000 UTC
+    Epoch Arrival Time: 1778907390.922984000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 77.000 microseconds]
+    [Time delta from previous displayed frame: 77.000 microseconds]
+    [Time since reference or first frame: 7.284314000 seconds]
+    Frame Number: 226
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: host]
+    [Destination: 1.4.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffbe0ec26e15a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 4
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [bInterfaceClass: Wireless Controller (0xe0)]
+

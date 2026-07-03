@@ -1,0 +1,29 @@
+# AI agent session artifacts
+.qwen/
+.codex
+
+# Node / npm
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Linux kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.cmd
+Module.symvers
+modules.order
+
+# Downloaded Debian packages (URL-encoded names mean browser downloads)
+*.deb
+
+# Windows reverse-engineering dumps (large)
+windows/rd/tmp/
+
+# Local backups
+worked_bak/

@@ -1,0 +1,277 @@
+﻿================================================================================
+Device: Wacom Device
+InstanceId: USB\VID_17EF&PID_6161&MI_03\6&3A317D94&0&0003
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: USB\VID_17EF&PID_6161&REV_1336&MI_03, USB\VID_17EF&PID_6161&MI_03
+DEVPKEY_Device_CompatibleIds: USB\COMPAT_VID_17ef&Class_03&SubClass_00&Prot_00, USB\COMPAT_VID_17ef&Class_03&SubClass_00, USB\COMPAT_VID_17ef&Class_03, USB\Class_03&SubClass_00&Prot_00, USB\Class_03&SubClass_00, USB\Class_03
+DEVPKEY_Device_DriverVersion: 8.0.2.19
+DEVPKEY_Device_DriverDate: 08/28/2025 03:00:00
+DEVPKEY_Device_Manufacturer: Wacom Technology
+DEVPKEY_Device_LocationInfo: 0000.0014.0000.006.000.000.000.000.000
+
+================================================================================
+Device: HID-compliant pen
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL03\7&26A31C65&1&0002
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col03, HID\VID_17EF&PID_6161&MI_03&Col03, HID\VID_17EF&UP:000D_U:0002, HID_DEVICE_UP:000D_U:0002, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID-compliant vendor-defined device
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL08\7&26A31C65&1&0007
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col08, HID\VID_17EF&PID_6161&MI_03&Col08, HID\VID_17EF&UP:FF11_U:0002, HID_DEVICE_UP:FF11_U:0002, HID_DEVICE_UPR:FF00-FFFF, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID-compliant device
+InstanceId: HID\VID_17EF&PID_6161&MI_05\7&1A8F6AE8&0&0000
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_05, HID\VID_17EF&PID_6161&MI_05, HID\VID_17EF&UP:000E_U:0001, HID_DEVICE_UP:000E_U:0001, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: USB Input Device
+InstanceId: USB\VID_17EF&PID_6161&MI_04\6&3A317D94&0&0004
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: USB\VID_17EF&PID_6161&REV_1336&MI_04, USB\VID_17EF&PID_6161&MI_04
+DEVPKEY_Device_CompatibleIds: USB\COMPAT_VID_17ef&Class_03&SubClass_00&Prot_00, USB\COMPAT_VID_17ef&Class_03&SubClass_00, USB\COMPAT_VID_17ef&Class_03, USB\Class_03&SubClass_00&Prot_00, USB\Class_03&SubClass_00, USB\Class_03
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 0000.0014.0000.006.000.000.000.000.000
+
+================================================================================
+Device: HID-compliant pen
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL04\7&26A31C65&1&0003
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col04, HID\VID_17EF&PID_6161&MI_03&Col04, HID\VID_17EF&UP:000D_U:0002, HID_DEVICE_UP:000D_U:0002, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID-compliant device
+InstanceId: HID\VID_17EF&PID_6161&MI_06\7&947D2DA&0&0000
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_06, HID\VID_17EF&PID_6161&MI_06, HID\VID_17EF&UP:00FF_U:0001, HID_DEVICE_UP:00FF_U:0001, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID-compliant digitizer
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL09\7&26A31C65&1&0008
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col09, HID\VID_17EF&PID_6161&MI_03&Col09, HID\VID_17EF&UP:000D_U:0001, HID_DEVICE_UP:000D_U:0001, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID-compliant vendor-defined device
+InstanceId: HID\VID_17EF&PID_6161&MI_02&COL03\7&2B547C4&0&0002
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_02&Col03, HID\VID_17EF&PID_6161&MI_02&Col03, HID\VID_17EF&UP:FFA1_U:0011, HID_DEVICE_UP:FFA1_U:0011, HID_DEVICE_UPR:FF00-FFFF, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID-compliant consumer control device
+InstanceId: HID\VID_17EF&PID_6161&MI_02&COL02\7&2B547C4&0&0001
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_02&Col02, HID\VID_17EF&PID_6161&MI_02&Col02, HID\VID_17EF&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000C_U:0001, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.1
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: Microsoft
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID Keyboard Device
+InstanceId: HID\VID_17EF&PID_6161&MI_02&COL01\7&2B547C4&0&0000
+Class: Keyboard
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_02&Col01, HID\VID_17EF&PID_6161&MI_02&Col01, HID\VID_17EF&UP:0001_U:0006, HID_DEVICE_SYSTEM_KEYBOARD, HID_DEVICE_UP:0001_U:0006, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.1882
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard keyboards)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: Lenovo OSK Partner
+InstanceId: USB\VID_17EF&PID_6161&MI_00\6&3A317D94&0&0000
+Class: System
+Status: OK
+DEVPKEY_Device_HardwareIds: USB\VID_17EF&PID_6161&REV_1336&MI_00, USB\VID_17EF&PID_6161&MI_00
+DEVPKEY_Device_CompatibleIds: USB\COMPAT_VID_17ef&Class_ff&SubClass_02&Prot_00, USB\COMPAT_VID_17ef&Class_ff&SubClass_02, USB\COMPAT_VID_17ef&Class_ff, USB\Class_ff&SubClass_02&Prot_00, USB\Class_ff&SubClass_02, USB\Class_ff
+DEVPKEY_Device_DriverVersion: 1.1.0.88
+DEVPKEY_Device_DriverDate: 11/22/2024 02:00:00
+DEVPKEY_Device_Manufacturer: Lenovo
+DEVPKEY_Device_LocationInfo: 0000.0014.0000.006.000.000.000.000.000
+
+================================================================================
+Device: USB Input Device
+InstanceId: USB\VID_17EF&PID_6161&MI_05\6&3A317D94&0&0005
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: USB\VID_17EF&PID_6161&REV_1336&MI_05, USB\VID_17EF&PID_6161&MI_05
+DEVPKEY_Device_CompatibleIds: USB\COMPAT_VID_17ef&Class_03&SubClass_00&Prot_00, USB\COMPAT_VID_17ef&Class_03&SubClass_00, USB\COMPAT_VID_17ef&Class_03, USB\Class_03&SubClass_00&Prot_00, USB\Class_03&SubClass_00, USB\Class_03
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 0000.0014.0000.006.000.000.000.000.000
+
+================================================================================
+Device: HID-compliant touch pad
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL05\7&26A31C65&1&0004
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col05, HID\VID_17EF&PID_6161&MI_03&Col05, HID\VID_17EF&UP:000D_U:0005, HID_DEVICE_UP:000D_U:0005, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: OSK Provider Firmware
+InstanceId: HID\VID_17EF&PID_6161&MI_04\7&2CBDEA3&0&0000
+Class: Firmware
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_04, HID\VID_17EF&PID_6161&MI_04, HID\VID_17EF&UP:FECD_U:0080, HID_DEVICE_UP:FECD_U:0080, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 1.3.36.66
+DEVPKEY_Device_DriverDate: 11/18/2025 02:00:00
+DEVPKEY_Device_Manufacturer: Lenovo
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: USB Input Device
+InstanceId: USB\VID_17EF&PID_6161&MI_06\6&3A317D94&0&0006
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: USB\VID_17EF&PID_6161&REV_1336&MI_06, USB\VID_17EF&PID_6161&MI_06
+DEVPKEY_Device_CompatibleIds: USB\COMPAT_VID_17ef&Class_03&SubClass_00&Prot_00, USB\COMPAT_VID_17ef&Class_03&SubClass_00, USB\COMPAT_VID_17ef&Class_03, USB\Class_03&SubClass_00&Prot_00, USB\Class_03&SubClass_00, USB\Class_03
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 0000.0014.0000.006.000.000.000.000.000
+
+================================================================================
+Device: HID-compliant touch screen
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL01\7&26A31C65&1&0000
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col01, HID\VID_17EF&PID_6161&MI_03&Col01, HID\VID_17EF&UP:000D_U:0004, HID_DEVICE_UP:000D_U:0004, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: Microsoft Input Configuration Device
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL06\7&26A31C65&1&0005
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col06, HID\VID_17EF&PID_6161&MI_03&Col06, HID\VID_17EF&UP:000D_U:000E, HID_DEVICE_UP:000D_U:000E, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.1150
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: Microsoft
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: USB Input Device
+InstanceId: USB\VID_17EF&PID_6161&MI_02\6&3A317D94&0&0002
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: USB\VID_17EF&PID_6161&REV_1336&MI_02, USB\VID_17EF&PID_6161&MI_02
+DEVPKEY_Device_CompatibleIds: USB\COMPAT_VID_17ef&Class_03&SubClass_00&Prot_01, USB\COMPAT_VID_17ef&Class_03&SubClass_00, USB\COMPAT_VID_17ef&Class_03, USB\Class_03&SubClass_00&Prot_01, USB\Class_03&SubClass_00, USB\Class_03
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 0000.0014.0000.006.000.000.000.000.000
+
+================================================================================
+Device: HID-compliant touch screen
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL02\7&26A31C65&1&0001
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col02, HID\VID_17EF&PID_6161&MI_03&Col02, HID\VID_17EF&UP:000D_U:0004, HID_DEVICE_UP:000D_U:0004, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: HID-compliant vendor-defined device
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL07\7&26A31C65&1&0006
+Class: HIDClass
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col07, HID\VID_17EF&PID_6161&MI_03&Col07, HID\VID_17EF&UP:FF11_U:0002, HID_DEVICE_UP:FF11_U:0002, HID_DEVICE_UPR:FF00-FFFF, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 10.0.26100.6725
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard system devices)
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: Wacom Mouse
+InstanceId: HID\VID_17EF&PID_6161&MI_03&COL0A\7&26A31C65&1&0009
+Class: Mouse
+Status: OK
+DEVPKEY_Device_HardwareIds: HID\VID_17EF&PID_6161&REV_1336&MI_03&Col0A, HID\VID_17EF&PID_6161&MI_03&Col0A, HID\VID_17EF&UP:0001_U:0001, HID_DEVICE_SYSTEM_MOUSE, HID_DEVICE_UP:0001_U:0001, HID_DEVICE
+DEVPKEY_Device_CompatibleIds: 
+DEVPKEY_Device_DriverVersion: 8.0.5.2
+DEVPKEY_Device_DriverDate: 06/06/2023 03:00:00
+DEVPKEY_Device_Manufacturer: Wacom Technology
+DEVPKEY_Device_LocationInfo: 
+
+================================================================================
+Device: USB Composite Device
+InstanceId: USB\VID_17EF&PID_6161\INGENIC
+Class: USB
+Status: OK
+DEVPKEY_Device_HardwareIds: USB\VID_17EF&PID_6161&REV_1336, USB\VID_17EF&PID_6161
+DEVPKEY_Device_CompatibleIds: USB\COMPAT_VID_17EF&DevClass_00&SubClass_00&Prot00, USB\COMPAT_VID_17EF&DevClass_00&SubClass_00, USB\COMPAT_VID_17EF&DevClass_00, USB\DevClass_00&SubClass_00&Prot_00, USB\DevClass_00&SubClass_00, USB\DevClass_00, USB\COMPOSITE
+DEVPKEY_Device_DriverVersion: 10.0.26100.6899
+DEVPKEY_Device_DriverDate: 06/21/2006 03:00:00
+DEVPKEY_Device_Manufacturer: (Standard USB Host Controller)
+DEVPKEY_Device_LocationInfo: Port_#0006.Hub_#0001
+
+

@@ -1,0 +1,6 @@
+YB9.PhantomKB.exe
+YB9.TouchPad.exe
+YB9.AirGesture.exe
+usb#vid_17ef&pid_6161&mi_00
+LenovoPyxisUpdaterEvent
+ScreenMode

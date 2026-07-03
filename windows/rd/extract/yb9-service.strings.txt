@@ -1,0 +1,96 @@
+[MCUConnect] - ReleaseDevice
+[MCUConnect] - StopThread
+[MCUConnect] - StopReadWriteThread
+[MCUConnect] - Start connect to MCU
+[MCUConnect] - Connect to MCU
+[MCUConnect] - do not find MCU
+[MCUConnect] - Open HID device succ, start read
+[MCUConnect] - Open HID device succ, start write
+[MCUConnect] - Connect failed: %lu
+[MCUConnect] - End connect to MCU
+MCUConnect::FindHidDevice - SetupDiGetClassDevs error:%d
+MCUConnect::FindHidDevice - enum, no device
+MCUConnect::FindHidDevice - enum, error111:%d
+MCUConnect::FindHidDevice - enum, error222:%d
+MCUConnect::FindHidDevice - enum, error4444:%d
+MCUConnect::FindHidDevice - get device path:%ws
+MCUConnect::FindHidDevice - enum no memory to apply, error555:%d
+MCUConnect::KeepConnectThread Start
+MCUConnect::KeepConnectThread End
+[MCUConnect] - ReadFile read data len: %d, %d
+[MCUConnect] - ReadFile break for exception: %d, %d, %d
+[MCUConnect] - ReadFileThread_HK Start id: %d
+[MCUConnect] - Read Failed: %lu
+[MCUConnect] - ReadFileThread_HK End id: %d
+[MCUConnect] - WriteToMCU error: %d
+[MCUConnect] - WriteFileThread_HK Start id: %d
+[MCUConnect] - Send Failed: %lu for %d times.
+[MCUConnect] - Send Failed: %lu, MCU dropped.
+[MCUConnect] - Send MCU Data. Id = %d
+[MCUConnect] - WriteFileThread_HK Error End id: %d
+[MCUConnect] - WriteFileThread_HK End id: %d
+[MCUConnect] - PingMCU
+[MCUConnect] - Reconnect
+=-=-=-=-=-=-=-=[MCU Gesture] - gesture id=%d, screen=%d
+TouchPad
+PhantomKB
+AirGesture
+CVfService::InitService tickcount: %u
+CVfService::InitService RegisterServiceCtrlHandlerExW failed %d
+CVfService::InitService service center
+[InitService] - RegisterWaitUntilOOBECompleted ret = %d
+[InitService] - oobe has finished
+[InitService] Session Id : %u
+[InitService] Session Status : %u
+[InitService] - unlock & logon -> StartProtectApp
+CVfService::InitService End
+create protect thread SplitStringToBlacklist BlackList size:%d
+Get Fn message : %u
+Pyxis SDK Service Version: %s
+CPyxisServiceCenter::InitMCU
+CPyxisServiceCenter::PushData2Mcu: MCU is not connected yet
+Datasize = 0, EMAPPID_MCU_RESET
+Datasize = 0, EMAPPID_MCU_STOP
+CPyxisServiceCenter::EnablePanelTouch - MCU is not connected yet
+CPyxisServiceCenter::EnablePanelTouch - Panel:%d, Enable:%d Finished
+BroadcastFnKeyMsg failed, Appmgr NOT READY.
+Get Fn message : %ul
+CPyxisServiceCenter::StopMCUArea - MCU is not connected yet
+CPyxisServiceCenter::StopMCUArea Finished
+SetScreenMode error: invalid AppId
+SetScreenMode error: %s
+SetScreenMode error: invalid BufSize
+SetScreenMode mode: %u, ret = %u
+SetITS error: invalid AppId
+SetITS error: %s
+SetITS error: invalid BufSize
+SetITS mode: %u, ret = %u
+invalid string: '\u' must be followed by 4 hex digits
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInterfaces
+SetupDiGetDeviceInterfaceDetailW
+SetupDiGetClassDevsW
+.?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AU?$Derived@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Any@@
+.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_fstream@DU?$char_traits@D@std@@@std@@
+.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1

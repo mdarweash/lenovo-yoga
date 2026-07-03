@@ -1,0 +1,26 @@
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\VID_17EF&PID_6161\ingenic
+    DeviceDesc    REG_SZ    @usb.inf,%usb\composite.devicedesc%;USB Composite Device
+    LocationInformation    REG_SZ    Port_#0006.Hub_#0001
+    Capabilities    REG_DWORD    0x90
+    Address    REG_DWORD    0x6
+    ContainerID    REG_SZ    {00000000-0000-0000-ffff-ffffffffffff}
+    HardwareID    REG_MULTI_SZ    USB\VID_17EF&PID_6161&REV_1336\0USB\VID_17EF&PID_6161
+    CompatibleIDs    REG_MULTI_SZ    USB\COMPAT_VID_17EF&DevClass_00&SubClass_00&Prot00\0USB\COMPAT_VID_17EF&DevClass_00&SubClass_00\0USB\COMPAT_VID_17EF&DevClass_00\0USB\DevClass_00&SubClass_00&Prot_00\0USB\DevClass_00&SubClass_00\0USB\DevClass_00\0USB\COMPOSITE
+    ClassGUID    REG_SZ    {36fc9e60-c465-11cf-8056-444553540000}
+    Service    REG_SZ    usbccgp
+    Driver    REG_SZ    {36fc9e60-c465-11cf-8056-444553540000}\0010
+    Mfg    REG_SZ    @usb.inf,%generic.mfg%;(Standard USB Host Controller)
+    ConfigFlags    REG_DWORD    0x0
+    ParentIdPrefix    REG_SZ    6&3a317d94&0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\VID_17EF&PID_6161\ingenic\Device Parameters
+    EnumerationRetryCount    REG_DWORD    0x0
+    SymbolicName    REG_SZ    \??\USB#VID_17EF&PID_6161#ingenic#{a5dcbf10-6530-11d2-901f-00c04fb951ed}
+    DeviceSelectiveSuspended    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\VID_17EF&PID_6161\ingenic\Device Parameters\Ceip
+    DeviceInformation    REG_DWORD    0x8
+    PortInterconnectType    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\VID_17EF&PID_6161\ingenic\Properties
